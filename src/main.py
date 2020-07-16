@@ -15,17 +15,16 @@ Changelog
 
 import random
 
+versao=1
 
 class Main:
-
-    """classe exemplo com shuffle"""
-    def _init_(self,versao):
-        #n=[0,2,3,4]
-        #random.shuffle(n,random,random)
-        print("versao:{}".format(versao))
-        #print(n)
-
+    
+    def _init_(self):
+        random.shuffle(n,random.random)
+        print("versao: {}".format(versao))
+        print(n)
 
 if __name__=="__main__":
-    Main(1)
-
+    n=[9,7,5,3]
+    Main()._init_()
+    
